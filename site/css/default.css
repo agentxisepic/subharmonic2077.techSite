@@ -1,3 +1,52 @@
-h1 {
-    color: yellow
+.navigationBar {
+    list-style: none;
+    left: unset;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.navigationBar li{
+    display: inline;
+}
+
+html{
+   background-color:  rgb(230, 230, 230);
+}
+
+.pageHeader ul{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.pageHeader{
+    border: rgb(121, 69, 241);
+    border-width: 3px;
+    border-style: solid;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.socials{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+.socials li{
+    display: inline;
+}
+
+.pageTitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+.paragraphedText{
+    text-align: center;
+    font-size: 30px;
+    margin-right: 25%;
+    margin-left: 25%;
 }
